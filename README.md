@@ -3,9 +3,13 @@ To run:
 Clone the repository
 Change the "filename" in randread.fio to the disk you want to benchmark
 Build the image:
+```
 docker build -t docker-fio .
+```
 Run the container:
+```
 docker run -it --privileged docker-fio
+```
 
 Options in running the container:
 use -it to get updates on job while running

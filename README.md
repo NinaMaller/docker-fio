@@ -1,7 +1,6 @@
 # docker-fio
 To run:
-Clone the repository <br />
-Change the "filename" in randread.fio to the disk you want to benchmark
+Clone the repository. Change the "filename" in randread.fio to the disk you want to benchmark </br>
 Build the image:
 ```
 docker build -t docker-fio .
